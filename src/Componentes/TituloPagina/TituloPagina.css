@@ -1,0 +1,20 @@
+#alinhar{
+    display: inline-block;
+}
+
+.infoIniciais{
+    margin-top: 4vh;
+    max-width: 105vh;
+    float: inline-start;
+}
+
+.titulo h1{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    font-size: 7vh;
+    color: #333333;
+    text-align: left;
+    letter-spacing: 1vh;
+    width: 95vh;
+    margin-left: 15vh;
+}
