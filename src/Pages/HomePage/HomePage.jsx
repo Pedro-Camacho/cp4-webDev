@@ -1,5 +1,5 @@
 import Card from "../../Componentes/Card";
-  
+
 function HomePage(){
     const detalhes = [
         {
