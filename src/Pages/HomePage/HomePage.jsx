@@ -1,6 +1,7 @@
 import TituloPagina from "../../Componentes/TituloPagina";
 import DescricaoPagina from "../../Componentes/DescricaoPagina";
 import Card from "../../Componentes/Card";
+
 import ImagemPagina from "../../Componentes/ImagemPagina";
 import img from "../../Componentes/ImagemPagina/Hero1.png";
 import BotaoInicial from "../../Componentes/BotaoInicial";
@@ -52,5 +53,6 @@ function HomePage() {
       </div>
     </>
   );
+
 }
 export default HomePage;
