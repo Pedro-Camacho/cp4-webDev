@@ -15,6 +15,7 @@ import Contato from './Pages/Contato/Contato.jsx'
 import Sobre from './Pages/Sobre/Sobre.jsx'
 import HomePage from './Pages/HomePage/HomePage.jsx'
 
+
 const router = createBrowserRouter([
   {
     path:'/',
@@ -36,6 +37,8 @@ const router = createBrowserRouter([
     ]
   }
 ])
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router}/>
