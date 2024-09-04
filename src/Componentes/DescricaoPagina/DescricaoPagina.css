@@ -1,0 +1,10 @@
+.descricao p{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+    text-align: left;
+    width: 70vh;
+    word-spacing: 1vh;
+    margin-left: 15vh;
+}
