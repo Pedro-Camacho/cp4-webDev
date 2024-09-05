@@ -1,7 +1,6 @@
-/*#alinhar{
-    display: inline-block;
+:root{
+    --cor-fundo-secundario:#F4F2F2;
 }
-*/
 .infoIniciais{
     margin-top: 4vh;
     max-width: 105vh;
@@ -11,4 +10,25 @@
 .container-principal{
     display: grid;
     grid-column: 50% 50%;
+}
+.container-planos{    
+    display: block;
+    position: relative;    
+    background-color: var(--cor-fundo-secundario);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.container-planos h3{
+    margin:0;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.planos{
+    display: flex;
+    justify-content: center;
 }

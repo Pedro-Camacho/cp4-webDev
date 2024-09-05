@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+:root{
+    --cor-fundo: #6975E8;
+    --cor-principal: #FFFFFF;
+    --cor-borda:#E4E4E4;
+    --cor-texto-secundario:#8790A3;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+}
+.planos{
+    display: flex;
+    
+    
+}
+.individual{
+    width: 240px;
+    height: 389px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 40px 40px 0 0 ;
+    background-color: var(--cor-principal);
+    
+}
+.individual header{    
+    background-color: var(--cor-fundo);
+    height: 74px;
+    border-radius: 40px 40px 0 0 ; 
+    align-items: center;
+    padding-top: 5px;
+}
+.individual h3{    
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.planos section{
+    margin-top: 10px;    
+    margin-left: 10px ;
+    height: 250px;
+}
+.planos select{
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: 'Roboto Mono','monospace';
+    font-weight: 400;
+    width: 225px;
+    height: 32px;
+    border:solid 1px var(--cor-borda);
+    box-shadow: 0px 4px 6px 0px #26323814;
+    box-shadow: 0px 2px 4px 0px #26323814;
+    
+}
+
+
+.negrito{
+    font-size: 12px;
+    font-family: 'Roboto Mono',monospace;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+footer .botao-cadastrar{
+    width: 225px;
+    height: 34px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    color: var(--cor-principal)    ;
+    border-style: none;
+    border-radius: 6px;
+    background-color: var(--cor-fundo);
+}
