@@ -1,0 +1,14 @@
+/*#alinhar{
+    display: inline-block;
+}
+*/
+.infoIniciais{
+    margin-top: 4vh;
+    max-width: 105vh;
+    float: inline-start;
+}
+
+.container-principal{
+    display: grid;
+    grid-column: 50% 50%;
+}
