@@ -1,0 +1,17 @@
+.iconesContato{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 15vh;
+}
+
+.iconesContato img{
+    width: 7vh;
+}
+
+
+#ContatosE{
+    margin-top: 6vh;
+    height: 420px;
+    border-right: 2px solid #B9B7B7;
+}
