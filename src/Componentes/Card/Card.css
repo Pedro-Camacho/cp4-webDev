@@ -7,49 +7,57 @@
 * {
     box-sizing: border-box;
 }
+.cardsRedes{
+    margin: 5dvh 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
   
 .card{    
-    width: 309px;   
-    height: 326px;         
+    width: 270px;   
+    height: 320px;         
     border-radius: 16px;
     margin: 0px;
     box-sizing: inherit;   
 }
 
-.cabecalho{
+.card .cabecalho{
     margin-top: 10px;
-    
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
 }
 
 .card h1{
     margin:0;    
-    font-size: 64px;
+    font-size: 60px;
+    font-weight: 400;
     color: #FFFFFF;
 }
+
 .card .caixa-img{
-    width: 32px;
+    width: 35px;
 }
+
 .card img{
     width: 100%;    
     border-radius: 50%;
-    overflow: hidden;
 }
+
 .conteudo{
-    display:block;
-    margin-left: 30px;
-    overflow: hidden; 
-    white-space: wrap; 
+    margin: 0 20px;
 }
+
 .card h3{
     font-weight: 500;
-    font-size: 32px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
+
 .card p{    
     font-weight: 400;
-    font-size: 18px;
-    
-
+    font-size: 16px;
 }

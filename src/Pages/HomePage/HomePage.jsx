@@ -12,7 +12,6 @@ import instagram from '../../imagens/instagram.jpeg'
 import tiktok from '../../imagens/tiktok.jpeg'
 import youtube from '../../imagens/youtube.jpeg'
 
-import './HomePage.css';
 
 function HomePage() {
   const detalhes = [
