@@ -3,3 +3,8 @@
     justify-content: center;
     gap:100px;
 }
+.container-principal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap:10px;
+}

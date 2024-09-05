@@ -51,17 +51,19 @@ function HomePage() {
 
   return (
     <>
-      <div id="alinhar" className="infoIniciais">
-        <TituloPagina titulo="Crie seus vídeos online" />
-        <DescricaoPagina descricao="Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade." /> 
-        <BotaoInicial texto="Começar Agora!" />
-      </div> 
-      <ImagemPagina src={img} descricao="Hero Imagem" />
-      <div className="cardsRedes" >
+      <section className="container-principal">
+        <div id="alinhar" className="infoIniciais">
+          <TituloPagina titulo="Crie seus vídeos online" />
+          <DescricaoPagina descricao="Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade." /> 
+          <BotaoInicial texto="Começar Agora!" />
+        </div> 
+        <ImagemPagina src={img} descricao="Hero Imagem" />
+      </section>
+      <section className="cardsRedes" >
         {detalhes.map((card, indice) => {
           return (<Card key={indice} card={card} className="cards"/>);
         })}
-      </div>
+      </section>
     </>
   );
 
