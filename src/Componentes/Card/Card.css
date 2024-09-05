@@ -1,23 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-* {
-    box-sizing: border-box;
-  }
-  
-.card{    
-    width: 309px;            
-    border-radius: 16px;
-    margin: 0px;
-    box-sizing: inherit;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.cabecalho h1{
-    margin:0;
+:root{
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
+}
+* {
+    box-sizing: border-box;
+}
+  
+.card{    
+    width: 309px;   
+    height: 326px;         
+    border-radius: 16px;
+    margin: 0px;
+    box-sizing: inherit;   
+}
+
+.cabecalho{
+    margin-top: 10px;
+    
+    display: flex;
+}
+
+.card h1{
+    margin:0;    
     font-size: 64px;
     color: #FFFFFF;
+}
+.card .caixa-img{
+    width: 32px;
+}
+.card img{
+    width: 100%;    
+    border-radius: 50%;
+    overflow: hidden;
+}
+.conteudo{
+    display:block;
+    margin-left: 30px;
+    overflow: hidden; 
+    white-space: wrap; 
+}
+.card h3{
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.card p{    
+    font-weight: 400;
+    font-size: 18px;
+    
+
 }
