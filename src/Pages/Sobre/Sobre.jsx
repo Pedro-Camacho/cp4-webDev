@@ -6,7 +6,7 @@ import img from "../../Componentes/ImagemPagina/Celulares.png";
 
 import './Sobre.css';
 
-import Planos from "../../Componentes/Planos";
+import Plano from "../../Componentes/Plano";
 
 function Sobre(){
     return (
@@ -19,8 +19,9 @@ function Sobre(){
                 </div> 
                 <ImagemPagina src={img} descricao="Foto do App" />
             </section>        
-            <section>
-                <Planos/>
+            <section className="container-planos">
+                <h3>Planos</h3>
+                <Plano className="planos"/>
             </section>
         </>
     )
