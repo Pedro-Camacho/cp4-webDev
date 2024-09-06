@@ -19,14 +19,20 @@ function Plano(){
                         </button>
                 </footer>
             </div>
-            <div className='individual'>
+            <div className='profissional'>
                 <header>
-                    <h3>Indivudual</h3>
+                    <h3>Profissional - Times</h3>
                 </header>
                 <section>
-                    <label htmlFor="n-videos">1 Usuário</label>
+                    <label htmlFor="n-videos">1-10  Usuário</label>
                     <select name="n-videos" id="numero-videos">
-                        <option value="dez-videos">10 Vídeos <p className='negrito'>R$15</p></option>
+                        <option value="dez-videos">Vídeos Ilimitado <p className='negrito'>R$40</p></option>
+                    </select>                    
+                    <br />
+                    <br />                    
+                    <label htmlFor="n-videos">+10  Usuário</label>
+                    <select name="n-videos" id="numero-videos">
+                        <option value="dez-videos">Vídeos Ilimitado <p className='negrito'>R$20</p></option>
                     </select>                    
                 </section>
                 <footer>
@@ -35,19 +41,16 @@ function Plano(){
                         </button>
                 </footer>
             </div>
-            <div className='individual'>
+            <div className='corporativo'>
                 <header>
-                    <h3>Indivudual</h3>
+                    <h3>Corporativo</h3>
                 </header>
                 <section>
-                    <label htmlFor="n-videos">1 Usuário</label>
-                    <select name="n-videos" id="numero-videos">
-                        <option value="dez-videos">10 Vídeos <p className='negrito'>R$15</p></option>
-                    </select>                    
+                    
                 </section>
                 <footer>
                         <button className='botao-cadastrar'>
-                            Cadastrar
+                            Entre em Contato
                         </button>
                 </footer>
             </div>

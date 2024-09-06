@@ -4,14 +4,15 @@
     --cor-fundo: #6975E8;
     --cor-principal: #FFFFFF;
     --cor-borda:#E4E4E4;
+    --cor-texto: #2F2E41;
     --cor-texto-secundario:#8790A3;
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
 }
 .planos{
+    
     display: flex;
-    
-    
+    gap:40px;
 }
 .individual{
     width: 240px;
@@ -29,7 +30,7 @@
     align-items: center;
     padding-top: 5px;
 }
-.individual h3{    
+.planos h3{    
     text-align: center;
     margin-top: 20px;
     font-weight: 700;
@@ -52,14 +53,11 @@
     box-shadow: 0px 2px 4px 0px #26323814;
     
 }
-
-
 .negrito{
     font-size: 12px;
     font-family: 'Roboto Mono',monospace;
     font-weight: 700;
 }
-
 footer{
     display: flex;
     align-items: end;
@@ -74,4 +72,42 @@ footer .botao-cadastrar{
     border-style: none;
     border-radius: 6px;
     background-color: var(--cor-fundo);
+}
+.profissional header{
+    border-bottom: solid 1px var(--cor-texto-secundario) ;
+    
+}
+.corporativo header{
+    border-bottom: solid 1px var(--cor-texto-secundario) ;
+}
+.profissional{
+    width: 240px;
+    height: 389px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 40px 40px 0 0 ;
+    background-color: var(--cor-principal);    
+}
+.profissional .botao-cadastrar{
+    border: solid 1px var(--cor-texto-secundario);
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+}
+.corporativo{
+    width: 240px;
+    height: 389px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 40px 40px 0 0 ;
+    background-color: var(--cor-principal);    
+}
+.corporativo section{
+    background-image: url("../../imagens/mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.corporativo .botao-cadastrar{
+    border: solid 1px var(--cor-texto-secundario);
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
 }

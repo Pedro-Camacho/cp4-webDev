@@ -17,6 +17,7 @@
     background-color: var(--cor-fundo-secundario);
     padding-top: 80px;
     padding-bottom: 80px;
+    margin-top: 30px;
 }
 .container-planos h3{
     margin:0;
