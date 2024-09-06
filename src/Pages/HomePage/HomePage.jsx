@@ -1,3 +1,4 @@
+
 import TituloPagina from "../../Componentes/TituloPagina";
 import DescricaoPagina from "../../Componentes/DescricaoPagina";
 import Card from "../../Componentes/Card";
@@ -59,9 +60,7 @@ function HomePage() {
         <ImagemPagina src={img} descricao="Hero Imagem" />
       </section>
       <section className="cardsRedes" >
-        {detalhes.map((card, indice) => {
-          return (<Card key={indice} card={card} className="cards"/>);
-        })}
+        <Card dados={detalhes} />
       </section>
     </>
   );

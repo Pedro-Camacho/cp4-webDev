@@ -1,9 +1,21 @@
+
+.containerContato{
+    display: flex;
+}
+
+#ContatosE{
+    margin-top: 6vh;
+    height: 420px;
+    border-right: 2px solid #B9B7B7;
+}
+
+
 .formsContato{
-    margin: 10vh;
-    margin-left: 110vh;
-    margin-right: 25vh;
+    width: 100%;
+    margin: 10vh 25vh 10vh 10vh;
     font-family: "Roboto Mono", monospace;
 }
+
 
 .formsContato .dados{
     display: flex;

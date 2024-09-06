@@ -1,17 +1,23 @@
 import './Card.css'
 
-function Card({card}){
+function Card({dados}){
     return (
-        <div className='card' style={{backgroundColor: card.cor}}>            
-            <div className='cabecalho'>
-                <h1>{card.id}</h1>
-                <div className='caixa-img'><img alt={card.id} src={card.imagem}></img></div>
-            </div>
-            <div className='conteudo'>                
-                <h3>{card.titulo}</h3>
-                <p>{card.texto}</p>            
-            </div>                  
-        </div>
+        <>
+        {
+            dados.map(({id, titulo, texto, cor, imagem}, indice) =>(
+                <div className="card" key={indice} style={{backgroundColor: cor}}>
+                    <div className="cabecalho">
+                        <h1>{id}</h1>
+                        <div className="caixa-img"><img alt={id} src={imagem} /></div>
+                    </div>
+                    <div className="conteudo">
+                        <h3>{titulo}</h3>
+                        <p>{texto}</p>
+                    </div>
+                </div>
+            ))
+        }
+        </>
         
         
     )

@@ -22,15 +22,17 @@ function Contato(){
     ];
     return(
         <> 
-            <div id="alinhar" className="infoIniciais" id="ContatosE">
-                <TituloPagina titulo="Dúvida e suporte, entre em contato:" />    
-                <section className="iconesContato">
-                    {icones.map((icone) => {
-                        return (<IconeContato icone={icone}/>)
-                    })}
-                </section>
+            <div className="containerContato">
+                <div id="alinhar" className="infoIniciais" id="ContatosE">
+                    <TituloPagina titulo="Dúvida e suporte, entre em contato:" />    
+                    <section className="iconesContato">
+                        {icones.map((icone) => {
+                            return (<IconeContato icone={icone}/>)
+                        })}
+                    </section>
+                </div>
+                <FormsContato />
             </div>
-            <FormsContato />
            
         </>
         
